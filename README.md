@@ -1,6 +1,8 @@
 ## WP Color Browser
 WP Color Browser allows you to easily add custom color settings to the mobile browser while your website or app is being viewed.
 
+![Alt text](https://raw.githubusercontent.com/CarlosRios/wp-color-browser/master/assets/images/banner.jpg "WP Color Browser")
+
 **Version:**			1.0 
 **Requires at least:**	4.4  
 **Tested up to:**		4.5.1  
