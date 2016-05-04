@@ -1,0 +1,86 @@
+fieldset#wpcb-theme-color-fieldset{
+	background: #FFF;
+	padding: 2em;
+	width: 100%;
+	max-width: 500px;
+	box-shadow: 0 2px 5px rgba( 0,0,0,0.1);
+	-webkit-box-shadow: 0 2px 5px rgba( 0,0,0,0.1);
+	-moz-box-shadow: 0 2px 5px rgba( 0,0,0,0.1);
+	-o-box-shadow: 0 2px 5px rgba( 0,0,0,0.1);
+}
+.wpcb-image{
+	margin-bottom: 1em;
+	display: block;
+}
+#wpcb-android-preview{
+	width: 500px;
+	margin-bottom: 1em;
+	border: 1px solid #E6E6E6;
+}
+#wpcb-android-header{
+	overflow: hidden;
+	background-color: #f0f0f0;
+}
+#wpcb-android-top-bar{
+	height: 15px;
+	background: rgba(0,0,0,0.4);
+	background-image: url(../images/icons.png);
+	background-position: right center;
+	background-size: 82px;
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	padding: 5px 10px;
+}
+#wpcb-android-url-bar{
+	position: relative;
+	line-height: 47px;
+	margin: 10px;
+	background-color: rgba(255,255,255, 0.4);
+	border-radius: 3px;
+	padding: 0 10px;
+	color: #FFF;
+	font-weight: bold;
+}
+#wpcb-android-url-bar::before{
+	font-family: 'Dashicons';
+	content: "\f203";
+	position: absolute;
+	right: 20px;
+	top: 0;
+	color: #FFF;
+	font-size: 35px;
+	font-weight: 100;
+	width: 13px;
+	overflow: hidden;
+}
+.wpcb-paragraph{
+	padding-bottom: 1em;
+}
+#wpcb-theme-color-container{
+	float: left;
+	margin-right: 30px;
+}
+#wpcb-previous-colors{
+	float: left;
+}
+.wpcb-color{
+	width: 50px;
+	height: 32px;
+	display: inline-block;
+	margin-right: 5px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0 2px 3px rgba( 0,0,0, 0.2 );
+	-webkit-box-shadow: 0 2px 3px rgba( 0,0,0, 0.2 );
+	-moz-box-shadow: 0 2px 3px rgba( 0,0,0, 0.2 );
+	-o-box-shadow: 0 2px 3px rgba( 0,0,0, 0.2 );
+}
+.wpcb-color:hover{
+	box-shadow: 0 2px 5px rgba( 0,0,0, 0.4 );
+	-webkit-box-shadow: 0 2px 5px rgba( 0,0,0, 0.4 );
+	-moz-box-shadow: 0 2px 5px rgba( 0,0,0, 0.4 );
+	-o-box-shadow: 0 2px 5px rgba( 0,0,0, 0.4 );
+}
